@@ -1,8 +1,8 @@
 /*==========  Desktop First Method  ==========*/
 @media only screen and (max-width : 1800px) {
     .reviews::before {
-       right: -75px;
-   }
+     right: -75px;
+ }
 }
 @media only screen and (max-width : 1640px) {
     .title-big {
@@ -49,10 +49,10 @@
         line-height: 39px;
     }
     .item-service__image {
-       transform: scale(0.9);
-       transform-origin: 100% 100%;
-   }
-   .item-service_main .title-block {
+     transform: scale(0.9);
+     transform-origin: 100% 100%;
+ }
+ .item-service_main .title-block {
     font-size: 46px;
     line-height: 57px;
 }
@@ -68,7 +68,7 @@
     min-height: 406px;
 }
 .reviews .slider-main {
-   margin: 0 -20px;
+ margin: 0 -20px;
 }
 .item-advantage {
     margin-bottom: 105px;
@@ -98,10 +98,10 @@
 }
 @media only screen and (max-width : 1400px) {
     .header__wrap .contacts-main {
-     margin-left: 10px;
-     margin-right: 20px;
- }
- .header__wrap .phone-main {
+       margin-left: 10px;
+       margin-right: 20px;
+   }
+   .header__wrap .phone-main {
     font-size: 16px;
     line-height: 22px;
 }
@@ -191,11 +191,11 @@ body {
         width: 153px;
     }
     .header__wrap .contacts-main {
-     margin-left: 5px;
-     margin-right: 8px;
-     font-size: 13px;
- }
- .phone-main {
+       margin-left: 5px;
+       margin-right: 8px;
+       font-size: 13px;
+   }
+   .phone-main {
     font-size: 16px;
 }
 .menu > li > a {
@@ -514,16 +514,16 @@ body {
         margin-bottom: 0;
         background-position: right bottom;
     }
-   .billbord .title-big {
+    .billbord .title-big {
         padding-right: 100px;
     }
     .image-billbord {
         margin-left: 0;
         margin-top: 160px;
-    bottom: -275px;
-    right: 0;
-    transform: scale(0.3);
-    position: absolute;
+        bottom: -275px;
+        right: 0;
+        transform: scale(0.3);
+        position: absolute;
     }
     .item-number {
         margin-top: 10px;
@@ -692,9 +692,9 @@ body {
         font-size: 11px;
     }
     .footer {
-     background-position: left bottom;
- }
- .item-review__hover .btn-main > span {
+       background-position: left bottom;
+   }
+   .item-review__hover .btn-main > span {
     padding: 0 35px;
 }
 .modal-wrap {
@@ -706,84 +706,87 @@ body {
 .descr-billbord {
     padding-right: 120px;
 }
+.billbord .col-lg-8 {
+    z-index: 2;
+}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .header__wrap .phone-main {
-       font-size: 0;
-       line-height: 0;
-    }
-    .header__wrap .phone-main i {
-        font-size: 18px;
-        display: inline-block;
-    }
-    .title-big {
-        line-height: 53px;
-    }
-    .row_numbers {
-        margin: 0 -5px;
-    }
-    .row_numbers > div {
-        padding: 0 5px;
-    }
-    .item-number {
-        font-size: 13px;
-        line-height: 20px;
-    }
-    .btn-main > span {
-        height: 60px;
-        padding: 0 30px;
-    }
-    .title-section {
-        font-size: 22px;
-        line-height: 30px;
-    }
-    .item-service_main .title-block {
-        font-size: 24px;
-        line-height: 27px;
-        padding-top: 20px;
-    }
-    .btn-block {
-        font-size: 14px;
-    }
-    .btn-block img {
-        margin-left: 13px;
-        max-width: 15px;
-    }
-    .btn-block {
-        height: 64px;
-    }
-    .photo-portfolio {
-        height: 300px;
-        margin: 0;
-    }
-    .title-page {
-        font-size: 20px;
-        line-height: 29px;
-    }
-    .item-advantage {
-        display: block;
-    }
-    .item-advantage__icon {
-        margin: 0;
-        margin-bottom: 20px;
-    }
-    .bottom-form {
-        display: block;
-    }
-    .bottom-form .btn-main {
-        margin: 0;
-        margin-top: 20px;
-    }
-    .bottom-form .btn-main {
-        width: 100%;
-    }
-    .footer__content {
-     display: none;
-     padding-top: 15px;
+     font-size: 0;
+     line-height: 0;
  }
- .footer__menu {
+ .header__wrap .phone-main i {
+    font-size: 18px;
+    display: inline-block;
+}
+.title-big {
+    line-height: 53px;
+}
+.row_numbers {
+    margin: 0 -5px;
+}
+.row_numbers > div {
+    padding: 0 5px;
+}
+.item-number {
+    font-size: 13px;
+    line-height: 20px;
+}
+.btn-main > span {
+    height: 60px;
+    padding: 0 30px;
+}
+.title-section {
+    font-size: 22px;
+    line-height: 30px;
+}
+.item-service_main .title-block {
+    font-size: 24px;
+    line-height: 27px;
+    padding-top: 20px;
+}
+.btn-block {
+    font-size: 14px;
+}
+.btn-block img {
+    margin-left: 13px;
+    max-width: 15px;
+}
+.btn-block {
+    height: 64px;
+}
+.photo-portfolio {
+    height: 300px;
+    margin: 0;
+}
+.title-page {
+    font-size: 20px;
+    line-height: 29px;
+}
+.item-advantage {
+    display: block;
+}
+.item-advantage__icon {
+    margin: 0;
+    margin-bottom: 20px;
+}
+.bottom-form {
+    display: block;
+}
+.bottom-form .btn-main {
+    margin: 0;
+    margin-top: 20px;
+}
+.bottom-form .btn-main {
+    width: 100%;
+}
+.footer__content {
+   display: none;
+   padding-top: 15px;
+}
+.footer__menu {
     display: block;
 }
 .footer__title {
@@ -864,11 +867,11 @@ body {
     line-height: 23px;
     height: 60px;
     padding: 0 40px;
-    }
-    .item-service .btn-page {
-        opacity: 1;
-    }
-    .billbord .btn-main {
+}
+.item-service .btn-page {
+    opacity: 1;
+}
+.billbord .btn-main {
     margin-top: 25px;
 }
 .advantages {
