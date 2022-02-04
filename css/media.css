@@ -706,7 +706,7 @@ body {
 .descr-billbord {
     padding-right: 120px;
 }
-.billbord .col-lg-8 {
+.billbord .col-lg-8 { 
     z-index: 2;
 }
 }
