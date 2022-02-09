@@ -9,6 +9,10 @@
 .thanks {
     background-position: right -150px bottom -370px;
 }
+.about_portfolio .image-about {
+    right: -65px;
+}
+
 }
 @media only screen and (max-width : 1640px) {
     .title-big {
@@ -118,7 +122,72 @@
 .thanks {
     background-position: right -200px bottom -370px;
 }
-
+.about_portfolio .image-about {
+    right: -20px;
+}
+.item-portfolio__image {
+    height: 660px;
+    }
+    .portfolio.portfolio_page {
+        background-size: 1800px auto;
+    }
+    .article h1 {
+    font-size: 31px;
+    line-height: 43px;
+}
+.article h2, .article h3 {
+    font-size: 22px;
+    line-height: 31px;
+    }
+    .article {
+    font-size: 17px;
+    line-height: 27px;
+}
+.news-min__title {
+    font-size: 23px;
+    line-height: 29px;
+    }
+    .news-min__image {
+        margin-right: 20px;
+    }
+    .about_service .title-big {
+        margin-right: -40px;
+    }
+.title-middle {
+    font-size: 31px;
+    line-height: 40px;
+}
+.service-main__content {
+    padding: 35px 30px;
+    padding-bottom: 35px;
+    padding-right: 35px;
+    }
+    .service-main__image {
+    height: 420px;
+    width: 445px;
+}
+.item-feature {
+    margin-top: 25px;
+}
+.service-main__button {
+    padding-top: 35px;
+}
+.photo-portfolio .item-portfolio__title {
+    font-size: 18px;
+    line-height: 23px;
+    }
+    .item-portfolio__content .arrow-block {
+        width: 83px;
+        height: 83px;
+        background-size: 24px auto;
+    }
+    .photo-portfolio .item-portfolio__content {
+    padding: 12px 14px;
+    padding-right: 85px;
+}
+.photo-portfolio .item-portfolio__content {
+    min-height: 83px;
+}
 }
 
 @media only screen and (max-width : 1400px) {
@@ -227,6 +296,60 @@ body {
 .about ~ .advantages {
     padding-bottom: 360px;
 }
+.about_portfolio .image-about {
+    right: 0;
+}
+.article h1 {
+    font-size: 29px;
+    line-height: 41px;
+}
+.article h2, .article h3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+.news-min__title {
+    font-size: 21px;
+    line-height: 27px;
+}
+.news-min__time {
+    font-size: 14px;
+    line-height: 18px;
+}
+.news-min__image {
+    width: 120px;
+    height: 115px;
+    }
+    .about_service .image-about img {
+        max-width: 450px;
+    }
+    .item-feature__value {
+    font-size: 26px;
+    line-height: 35px;
+}
+.item-feature__value sup {
+    font-size: 14px;
+}
+.item-feature__descr {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 6px;
+}
+.service-main {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 35px;
+    }
+    .item-feature {
+    margin-top: 20px;
+}
+.service-main__button {
+    padding-top: 25px;
+    }
+    .title-middle {
+    font-size: 31px;
+    line-height: 39px;
+    margin-bottom: 15px;
+}
 }
 @media only screen and (max-width : 1300px) {
     body {
@@ -325,6 +448,49 @@ body {
 .about {
     background-position: right bottom;
 }
+.col-lg-4 .item-service_main .title-block {
+    font-size: 31px;
+    line-height: 37px;
+    }
+    .item-portfolio__title {
+    font-size: 22px;
+    line-height: 29px;
+}
+.item-portfolio__content {
+    padding: 28px;
+    padding-right: 120px;
+    }
+    .item-portfolio__image {
+    height: 570px;
+}
+.portfolio.portfolio_page {
+    background-size: 1600px auto;
+}
+.article h1 {
+    font-size: 27px;
+    line-height: 35px;
+}
+.article .link-big {
+    margin-top: 0;
+    margin-bottom: 49px;
+}
+.article {
+    font-size: 16px;
+    line-height: 26px;
+}
+.news-min__title {
+    font-size: 19px;
+    line-height: 25px;
+}
+.news-min__image {
+    width: 110px;
+    height: 105px;
+    margin-right: 9px;
+}
+.about_service {
+    padding-bottom: 250px;
+}
+
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -457,6 +623,85 @@ body {
     .about ~ .advantages {
         margin-top: -160px;
     }
+    .col-lg-4 .item-service_main .title-block {
+    font-size: 26px;
+    line-height: 33px;
+}
+.portfolio.portfolio_page {
+    margin-top: -62px;
+}
+.item-portfolio__image {
+    height: 500px;
+}
+.item-portfolio__title {
+    font-size: 19px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+.article h1 {
+    font-size: 23px;
+    line-height: 35px;
+}
+.article h2, .article h3 {
+    font-size: 17px;
+    line-height: 27px;
+        margin-bottom: 15px;
+    padding-top: 10px;
+}
+.news-min .arrow-block {
+    width: 45px;
+    height: 45px;
+    background-size: 20px;
+    }
+    .news-min__image {
+    width: 85px;
+    height: 94px;
+    margin-right: 9px;
+}
+.news-min__title {
+    font-size: 17px;
+    line-height: 21px;
+}
+.about_service .image-about {
+    margin-top: 0;
+}
+.about_service .image-about img {
+    max-width: 350px;
+}
+.item-feature {
+    margin-top: 15px;
+}
+.service-main {
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 25px;
+    }
+.service-main__button {
+    padding-top: 30px;
+}
+.item-feature__value {
+    font-size: 19px;
+    line-height: 26px;
+}
+.title-middle {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 15px;
+}
+.service-main__image {
+    height: 385px;
+}
+.service-main__image {
+    width: 420px;
+}
+.service-main__content {
+    padding: 15px 20px;
+    padding-bottom: 25px;
+    padding-right: 20px;
+}
+.photo-portfolio .item-portfolio__descr {
+    font-size: 14px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -658,6 +903,44 @@ body {
     .about ~ .ask-question {
         padding-bottom: 200px;
     }
+    .services-page {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .services-page .title-section {
+        padding-bottom: 30px;
+    }
+    .about_portfolio .image-about {
+        position: absolute;
+        right: -70px;
+        top: -20px;
+    }
+    .item-portfolio__image {
+    height: 700px;
+}
+.article {
+    padding-bottom: 50px;
+}
+.news-min__image {
+    margin-right: 15px;
+}
+.service-page {
+    margin-top: 0;
+}
+.service-main {
+    display: block;
+    width: 100%;
+}
+.service-main__image {
+    width: 100%;
+}
+.service-main__content {
+    padding: 30px;
+}
+.service-page ~ .services {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -943,6 +1226,42 @@ body {
 .about .title-big {
     margin-bottom: 0;
 }
+.about_portfolio .descr-title {
+    margin-bottom: 30px;
+}
+.item-portfolio__image {
+    height: 485px;
+}
+.article {
+    padding-top: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    background-image: none;
+}
+.article .link-big {
+    margin-bottom: 30px;
+}
+.link-big {
+    font-size: 22px;
+    line-height: 28px;
+    }
+    .link-big img {
+        margin-left: 25px !important;
+        max-width: 19px;
+    }
+    .service-page ~ .services {
+        margin-top: -70px;
+        padding-top: 70px;
+    }
+    .service-page {
+        padding-bottom: 115px;
+    }
+    .service-main__image {
+    height: 345px;
+}
+.about_service {
+    padding-bottom: 50px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -1154,6 +1473,93 @@ body {
 .about ~ .ask-question {
     padding-bottom: 115px;
 }
+.services-page .row_services > div:last-child .item-service {
+    padding-top: 15px;
+}
+.services-page .row_services > div:last-child .title-block {
+    font-size: 19px;
+    line-height: 21px;
+}
+.services-page .row_services > div:last-child .item-service__image {
+    transform: scale(0.65);
+}
+.item-portfolio__content {
+    padding: 20px 15px;
+    padding-right: 93px;
+}
+.item-portfolio__title {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.item-portfolio__descr {
+    font-size: 14px;
+}
+.item-portfolio__image {
+    height: 370px;
+}
+.portfolio.portfolio_page {
+    padding-bottom: 55px;
+}
+.article img {
+    margin-bottom: 20px;
+}
+.article h2, .article h3 {
+    font-size: 16px;
+    line-height: 26px;
+    }
+    .article {
+        padding-bottom: 40px;
+    }
+    .about_service .title-big {
+        margin-right: 0;
+    }
+    .service-main__image {
+    height: 315px;
+}
+.title-middle {
+    font-size: 23px;
+    line-height: 31px;
+    margin-bottom: 12px;
+}
+.service-main .title-middle {
+    display: block;
+}
+.service-main__content p {
+    display: block;
+}
+.service-main__content .btn-main {
+    width: 100%;
+    font-size: 15px;
+}
+.service-main__content .btn-main > span {
+    padding: 0 30px;
+    width: 100%;
+}
+.service-main__content {
+    padding: 15px;
+    padding-bottom: 25px;
+}
+.item-feature {
+    width: 50%;
+}
+.photo-portfolio .item-portfolio__content {
+    opacity: 1;
+}
+.photo-portfolio .item-portfolio__title {
+    font-size: 17px;
+    line-height: 22px;
+}
+.item-portfolio .item-portfolio__content {
+    padding-right: 20px;
+}
+.item-portfolio__content p {
+    font-size: 13px;
+    line-height: 20px;
+}
+.item-portfolio .arrow-block {
+    display: none;
+}
 }
 
 /* Custom, iPhone Retina */
@@ -1210,6 +1616,7 @@ body {
     }
 }
 @media only screen and (min-width : 1921px) {
+    .service-page,
     .reviews::after,
     .portfolio,
     .reviews {

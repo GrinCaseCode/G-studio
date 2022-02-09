@@ -60,7 +60,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		nextArrow: '<div class="slick-next slick-arrow"><svg width="23" height="43" viewBox="0 0 23 43" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 41.4565L20 21.5L2 1.5435" stroke="white" stroke-width="3" stroke-dasharray="3 3"/></svg><div/>',
 		responsive: [
 		{
-			breakpoint: 768,
+			breakpoint: 992,
 			settings: {
 				slidesToShow: 2,
 				arrows: false,
